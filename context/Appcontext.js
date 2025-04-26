@@ -34,7 +34,7 @@ const moods = [
   { category: 80, name: "Playful", emoji: "🙃", categoryName: "Crime" },
 ];
 
-const YOUTUBE_API_KEY = "AIzaSyBJsdhjo_aKxZmR6m8Gglu6WadsLQtRTC4"; // Replace with your YouTube API key
+const YOUTUBE_API_KEY = "APIkey"; // Replace with your YouTube API key
 
 export function MoodProvider({ children }) {
   return (
