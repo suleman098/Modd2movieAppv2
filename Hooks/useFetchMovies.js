@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-const API_KEY = "b381d7e57b37db0452a941baee9b4a95"; // Replace with your TMDb API key
+const API_KEY = "apikey"; // Replace with your TMDb API key
 const BEARER_TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMzgxZDdlNTdiMzdkYjA0NTJhOTQxYmFlZTliNGE5NSIsIm5iZiI6MTczODg2MDY5NC4yNDYsInN1YiI6IjY3YTRlODk2ZjFkMDRmZTVlYTJmZWQ2ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dROMcmIAKkcQWonrm9VLNn2BAUXV6NhXgkVT-VJDM2M"; // Replace with your TMDb Bearer token
+  "token"; // Replace with your TMDb Bearer token
 
 export default function useFetchMovies(genreID) {
   const [movies, setMovies] = useState([]);
